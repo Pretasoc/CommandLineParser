@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Description>A simple lightweight library to parse command line options initially developed by the corefxlab team. Since there is no public package of this library, i decided to publish it.</Description>
+    <PackageId>CommandLineParser (Inofficial)</PackageId>
+    <Company />
+    <Authors>CoreFxLab</Authors>
   </PropertyGroup>
 
 </Project>
